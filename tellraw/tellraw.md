@@ -14,3 +14,7 @@
 * **$Optionen$** sind die Optionen, die man eingeben kann. Diese werden jeweils in Anführungstrichen geschrieben, danach folgt ein Doppelpunkt und dann entweder "true/false" ohne Anführungszeichen oder etwas anderes in Anführungszeichen. Mehrere Optionen werden mit Kommas getrennt.
   * ``` "text":"$Text$"``` : Gibt den Text der Naricht an
   * ``` "color":$Farbe$ ```: Gibt die Farbe des Textes an
+ 
+## Beispiele
+* ``` tellraw @s {"text":"Hallo!", "color":"red"} ```: Zeigt dem Spieler, der den Befehl ausführt, den Text "Hallo!" in roter Farbe.
+*  ``` tellraw @s {"text":"Test?!", "color":"#00ff00", "bold":true} ```: Zeigt dem Spieler, der den Befehl ausführt, den Text "Test?" in grüner Farbe und dicker Schrift.
