@@ -17,4 +17,4 @@
  
 ## Beispiele
 * ``` tellraw @s {"text":"Hallo!", "color":"red"} ```: Zeigt dem Spieler, der den Befehl ausführt, den Text "Hallo!" in roter Farbe.
-*  ``` tellraw @s {"text":"Test?!", "color":"#00ff00", "bold":true} ```: Zeigt dem Spieler, der den Befehl ausführt, den Text "Test?" in grüner Farbe und dicker Schrift.
+*  ``` tellraw @a {"text":"Test?!", "color":"#00ff00", "bold":true} ```: Zeigt jedem Spieler den Text "Test?" in grüner Farbe und dicker Schrift.
