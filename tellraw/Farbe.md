@@ -1,4 +1,4 @@
-# Option-Farben
+# Option-Farbe ``` "color" ```
 * Die Farben sind im Hex Code oder als Wörter angegeben
     * ``` "color":"$Farbe$" ```
   > black #000000  
