@@ -18,10 +18,12 @@
 * **`{Optionen}`** – JSON-Formatierte Optionen für das Styling und Verhalten des Textes:
   * ```json
     {"text":"<Text>"}
-    ``` – Gibt den Text der Nachricht an.
+    ```
+    ➡ Gibt den Text der Naricht an.
   * ```json
     {"color":"<Farbe>"}
-    ``` – Bestimmt die Farbe des Textes (z. B. `"red"` oder `"#00ff00"`).
+    ```
+    ➡ Bestimmt die Farbe des Textes (z. B. `"red"` oder `"#00ff00"`).
   * Weitere Attribute wie **`bold`**, **`italic`**, **`underlined`** sind ebenfalls möglich.
 
 ---
