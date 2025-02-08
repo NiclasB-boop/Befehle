@@ -9,7 +9,7 @@ Die Farben können als **Hex-Code** oder als **Wort** angegeben werden:
 ```json
 "color":"<Farbe>"
 ```
-💡 **<Farbe>** wird durch den gewünschten Farbnamen oder Hex-Code ersetzt.
+💡 **\<Farbe>** wird durch den gewünschten Farbnamen oder Hex-Code ersetzt.
 
 ---
 
