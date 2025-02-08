@@ -1,123 +1,44 @@
-# Text-Optionen für `tellraw`
+# **`tellraw`-Befehl**
 
-## Verfügbare Text-Optionen
-```json
-"text", "selector", "nbt", "score", "keybind", "translate"
-```
-
-### Allgemeine Syntax
-- Die Option wird in **Anführungszeichen** geschrieben.
-- Danach folgt ein **Doppelpunkt** (`:`).
-- Der Wert der Option wird ebenfalls in **Anführungszeichen** gesetzt.
+## ✨ Was macht er?
+* Sendet eine Nachricht an bestimmte Spieler
+* Der Text ist formatierbar (Farbe, Kursiv, etc.)
+* Der Text kann anklickbar sein:
+  * ✅ Befehle ausführen
+  * 🌍 Links öffnen
+  * 📋 Text kopieren
 
 ---
 
-## 📜 `"text"`
-Zeigt einfachen Text an.
-
-```json
-{"text":"<Text>"}
-```
-
-### Beispiele
+## 🛠 Syntax
 ```mcfunction
-/tellraw @s {"text":"Hallo, Welt!"}
+/tellraw <Spieler> {Optionen}
 ```
-➡ Zeigt den Text **"Hallo, Welt!"** an.
-
-```mcfunction
-/tellraw @s {"text":"Text"}
-```
-➡ Zeigt den Text **"Text"** an.
+* **`<Spieler>`** – Die Zielperson(en), die die Nachricht erhalten.
+* **`{Optionen}`** – JSON-Formatierte Optionen für das Styling und Verhalten des Textes:
+  * ```json
+    {"text":"<Text>"}
+    ```
+    ➡ Gibt den Text der Naricht an.
+  * ```json
+    {"color":"<Farbe>"}
+    ```
+    ➡ Bestimmt die Farbe des Textes (z. B. `"red"` oder `"#00ff00"`).
+  * Weitere Attribute wie **`bold`**, **`italic`**, **`underlined`** sind ebenfalls möglich.
 
 ---
 
-## 🎯 `"selector"`
-Zeigt den Namen eines Selektors (z. B. Spielername oder Entity-Name).
-
-```json
-{"selector":"<Selektor>"}
-```
-
-### Beispiele
+## 🔥 Beispiele
 ```mcfunction
-/tellraw @s {"selector":"@s"}
+/tellraw @s {"text":"Hallo!", "color":"red"}
 ```
-➡ Zeigt dem Spieler, der den Befehl ausführt, seinen eigenen Namen.
+➡ Zeigt dem ausführenden Spieler den Text **„Hallo!“** in **roter** Farbe.
 
 ```mcfunction
-/tellraw @a {"selector":"@e"}
+/tellraw @a {"text":"Test?!", "color":"#00ff00", "bold":true}
 ```
-➡ Zeigt jedem Spieler die Namen aller Entitäten an.
+➡ Zeigt **allen Spielern** den Text **„Test?!“** in **grüner, fetter** Schrift.
 
 ---
 
-## 📦 `"nbt"`
-Zeigt bestimmte NBT-Daten eines Entitäts- oder Block-Attributs an.
-
-```json
-{"nbt":"<NBT-Daten>","entity":"<Ziel>"}
-```
-
-### Beispiele
-```mcfunction
-/tellraw @a {"nbt":"Health","entity":"@s"}
-```
-➡ Zeigt jedem Spieler die **Lebenspunkte** des ausführenden Spielers an.
-
-```mcfunction
-/tellraw @a {"nbt":"Air","entity":"@e"}
-```
-➡ Zeigt jedem Spieler, wie lange jede Entität noch atmen kann.
-
----
-
-## 🎮 `"score"`
-Zeigt den Wert eines **Scoreboards** an.
-
-```json
-{"score":{"name":"<Ziel>","objective":"<Scoreboard>"}}
-```
-
-### Beispiele
-```mcfunction
-/tellraw @a {"score":{"name":"@s","objective":"Punkte"}}
-```
-➡ Zeigt jedem Spieler den **Punktewert** seines Scoreboards an.
-
----
-
-## ⌨ `"keybind"`
-Zeigt die **Tastenbelegung** für eine bestimmte Aktion, basierend auf den aktuellen Einstellungen des Spielers.
-
-```json
-{"keybind":"<Aktion>"}
-```
-
-### Beispiele
-```mcfunction
-/tellraw @a {"keybind":"key.forward"}
-```
-➡ Zeigt jedem Spieler die **Tastenbelegung** für **Vorwärts laufen** an.
-
-Falls keine Taste belegt ist, wird „Nicht belegt“ angezeigt.
-
----
-
-## 🌍 `"translate"`
-Übersetzt Begriffe ins **Spielersprache**, sofern sie in Minecraft vordefiniert sind.
-
-```json
-{"translate":"<Übersetzbarer Begriff>"}
-```
-
-### Beispiele
-```mcfunction
-/tellraw @a {"translate":"block.minecraft.dirt"}
-```
-➡ Zeigt jedem Spieler das übersetzte Wort für **„Erde“** an.
-
-```mcfunction
-/tellraw @a {"translate":"block.minecraft.black_concrete"}
-```
-➡ Zeigt jedem Spieler das übersetzte Wort für **„Schwarzer Beton“** an.
+📌 *Mehr Infos: [Minecraft-Wiki](https://minecraft.wiki/w/Tellraw)*
