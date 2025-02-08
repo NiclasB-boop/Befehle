@@ -19,6 +19,5 @@ Falls es Unklarheiten gibt oder weitere Informationen benötigt werden, wendet e
 - **Niclas**
 - **Morten**
 
-## ℹ️ Hinweise
-- Bitte stellt sicher, dass alle Befehlsdateien gut strukturiert und verständlich sind.
-- Falls ihr Ergänzungen oder Verbesserungen habt, könnt ihr Pull Requests erstellen.
+## ℹ️ Weitere Informationen
+* [Minecraft-Wiki](https://minecraft.wiki/command)
