@@ -1,7 +1,24 @@
-# Befehle ```MRGE-Minecraft```
+# MRGE-Minecraft Befehle
 
-## Struktur
-* In jedem Ordner zu einem Befehl ist eine Datei, die genauso heißt, wie der Ordner. in ihr wird der Befehl grundsätzlich erklärt und in den anderen Dateien im jeweiligen Ordner werden Sachen ergänzt.
+## 📂 Struktur
+Jeder Befehl befindet sich in einem eigenen Ordner mit folgender Struktur:
 
-## Bei Fragen
-* An Herr Sigismund, Niclas oder Morten wenden
+```
+📂 <Befehl-Name>/
+ ├── 📄 <Befehl-Name>.md  # Grundlegende Erklärung des Befehls
+ ├── 📄 <Ergänzung-1>.md   # Zusätzliche Informationen
+ ├── 📄 <Ergänzung-2>.md   # Weitere Details
+```
+
+Die Hauptdatei im Ordner hat den gleichen Namen wie der Ordner und enthält die grundlegende Erklärung des Befehls. Zusätzliche Dateien enthalten Ergänzungen oder weiterführende Informationen.
+
+## ❓ Bei Fragen
+Falls es Unklarheiten gibt oder weitere Informationen benötigt werden, wendet euch an:
+
+- **Herr Sigismund**
+- **Niclas**
+- **Morten**
+
+## ℹ️ Hinweise
+- Bitte stellt sicher, dass alle Befehlsdateien gut strukturiert und verständlich sind.
+- Falls ihr Ergänzungen oder Verbesserungen habt, könnt ihr Pull Requests erstellen.
