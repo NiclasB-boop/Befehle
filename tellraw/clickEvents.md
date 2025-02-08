@@ -51,9 +51,18 @@
 ```mcfunction
 /tellraw @a {"text":"Blau Hex Code","color":"blue","clickEvent":{"action":"copy_to_clipboard","value":"#5555FF"}}
 ```
-➡Zeigt den Text "Blau Hex Code" in der Farbe blau und wenn der Text angeklickt wird, wird der Text "#5555FF" kopiert
+➡ Zeigt den Text "Blau Hex Code" in der Farbe blau und wenn der Text angeklickt wird, wird der Text "#5555FF" kopiert
 ## ```open_url```
 * Öffnet einen Link, wenn es angeklickt wird.
 ```json
 "clickEvent":{"action":"open_url","value":"<Link>"}
 ```
+### Beispiele: 
+```mcfunction
+/tellraw @a {"text":"Minecraft Homepage","clickEvent":{"action":"open_url","value":"https://minecraft.wiki/"}}
+```
+➡ Zeigt den Text "Minecraft Homepage" und öffnet die Minecraft Wiki, wenn sie angeklickt wir.
+```mcfunction
+/tellraw @a {"text":"⬛","bold":true,"color":"#af55af","clickEvent":{"action":"open_url","value":"https://github.com/NiclasB-boop/Befehle/tree/main/"}}
+```
+➡ Zeigt ein Großes violettes Quadrat, das wenn es angeklickt wird, unser "Command-Tutorial" öffnet.
