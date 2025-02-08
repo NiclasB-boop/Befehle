@@ -1,6 +1,6 @@
 # Option-Farbe ``` "color" ```
-* Die Farben sind im Hex Code oder als Wörter angegeben
-    * ``` "color":"$Farbe$" ```
+* Die Farben sind im Hex-Code oder als Wörter angegeben
+    * ``` "color":"$Farbe$" ```: $Farbe$ wird mit der Farbe oder dem Hex-Code ersetzt
   > black #000000  
   > dark_blue #0000AA  
   > dark_green #00AA00  
