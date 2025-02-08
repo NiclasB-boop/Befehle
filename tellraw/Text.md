@@ -58,3 +58,28 @@
 ```mcfunction
 /tellraw @a {"score":{"name":"@s","objective":"Punkte"}}
 ```
+➡ Zeigt jedem Spieler den score des Scoreboards "Punkte" von dem Spieler der den Befehl ausführt.
+## ```keybind```
+* Zeigt denjenigen die die Nachricht geschickt bekommen ihre Tastenbelegung, die sie in dem Moment in dem der Befehl ausgeführt wird haben, einer bestimmten Aktion (Vorwärts laufen, Angreifen/Abbauen, ...). Ist die Aktion nicht belegt wird "Nicht belegt gesendet".
+```json
+"keybind":"<Aktion>"
+```
+### Beispiele:  
+```mcfunction
+/tellraw @a {"keybind":"key.forward"}
+```  
+➡ Zeigt jedem Spieler seine Tastenbelegung für's Vorwärts laufen.  
+## ```translate```
+* Zeigt einen in die Sprache des Spielers übersetzen Text (nur das was in den Minecraft Daten ist (Diamant, Einzelspieler, ...)).
+```json
+"translate":"<Wort>"
+```
+### Beispiele:  
+```mcfunction
+/tellraw @a {"translate":"block.minecraft.dirt"}
+```
+➡ Zeigt jedem Spieler eine Übersetzung des Wortes Erde.
+```mcfunction
+/tellraw @a {"translate":"block.minecraft.black_concrete"}
+```
+➡ Zeigt jedem Spieler die Übersetzung des Wortes Schwarzer Beton.
