@@ -27,3 +27,19 @@
 | obfuscated | 🔀 Unlesbar    |
 | striketrough | ❌ Durchgestrichen |
 | underlined | 📏 Unterstrichen |
+
+## 🛠 Beispiele
+```mcfunction
+/tellraw @s {"text":"Gelb", "bold":true}
+```
+➡ Zeigt den Text **„Fett“** **fettgedruckt**.
+
+```mcfunction
+/tellraw @s {"text":"Rot", "italic":true, "striketrough":true}
+```
+➡ Zeigt den Text **„Kurisiv und Durchgestrichen“** **kursiv** und **durchgestrichen**.
+
+```mcfunction
+/tellraw @s {"text":"Nichts", "underlined":false}
+```
+➡ Zeigt den Text **„Nichts“** **ohne** extra Style-Optionen.
