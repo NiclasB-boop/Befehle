@@ -3,7 +3,7 @@
 * Wenn man den Text anklickt, wird etwas bestimmtes ausgeführt.
 ## Verfügbare clickEvents
 ```json
-run_command, suggest_command, copy_to_clipboard, open_url
+"run_command", "suggest_command", "copy_to_clipboard", "open_url"
 ```
 ## Algemeine Syntax:
 * Statt " muss \" geschrieben werden.
