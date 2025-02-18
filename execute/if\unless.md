@@ -30,3 +30,12 @@ if block <Position> <Eigenschaft>
 ```
 * **`<Position>`** - Die Position wo gekuckt wird ob der Block eine bestimmte Eigenschaft hat oder ein bestimmter Block ist.
 * **`<Eigenschaft>`** - Die Eigenschaft\ der Block nach dem gekuckt wird.
+#### Beispiele
+```mcfunction
+/execute if block 46 30 2 minecraft:diamond_block run give @s diamond
+```
+➡ Wenn der Block auf der Koordinate 46 30 2 ein Diamantblock ist kriegt die Person, die den Befehl ausführt, einen Diamanten.
+```mcfunction
+/execute unless block ~ ~ ~ #minecraft:climbable
+```
+➡ Wenn der Block, auf dem die Person, die den Befehl ausführt, ist, nicht kletterbar ist, wird die Nachricht "Test erfolgreich" angezeigt. Wenn doch, dann wird die Nachricht "Test fehlgeschlagen" angezeigt. 
