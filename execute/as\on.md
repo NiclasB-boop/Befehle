@@ -24,4 +24,4 @@ on <Verbindung>
 * passengers: Die Entitäten die auf der Entität reiten bzw. sitzen.
 * target: Das Ziel einer Entität (z.B. ein Zombie möchte einen Dorfbewohner angreifen).
 * vehicle: Entität auf der geritten bzw. gesessen wird.
-### Beipiele
+### Beispiele
