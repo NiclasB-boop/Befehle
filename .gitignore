@@ -1,0 +1,40 @@
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.vscode-test/
+
+# Obsidian
+.obsidian/
+*.md~
+.obsidian/workspace
+.obsidian/plugins/**/data.json
+.obsidian/plugins/**/manifest.json
+.obsidian/plugins/**/main.js
+.obsidian/backups/
+
+# Other Common IDEs
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Markdown Previews and Outputs
+*.html
+*.pdf
+*.docx
+*.tex
+*.log
+*.aux
+*.out
+
+# Temporary Files
+*~
+*.tmp
+*.lock
+
