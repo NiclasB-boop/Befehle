@@ -4,7 +4,7 @@
 * Im Order "Befehle" befinden sich alle Befehle in einem eigenem Ordner mit folgender Struktur:
 ```
 📂 <Befehl-Name>/
- ├── 📄 .<Befehl-Name>.md  # Grundlegende Erklärung des Befehls
+ ├── 📄 _<Befehl-Name>.md  # Grundlegende Erklärung des Befehls
  ├── 📄 <Ergänzung-1>.md   # Zusätzliche Informationen
  ├── 📄 <Ergänzung-2>.md   # Weitere Details
 ```
