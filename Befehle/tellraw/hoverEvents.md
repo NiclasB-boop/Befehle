@@ -50,3 +50,8 @@
 ```mcfunction
 /tellraw @s {"text":"Zombie","hoverEvent":{"action":"show_entity","contents":{"id":"3b7b4867-4229-44c1-9116-84975637325c","type":"zombie"}}}
 ```
+➡ Zeigt dem Spieler, der den Befehl ausführt, den Text Zombie und wenn über den Text gegleitet wird, wird ein Zombie mit der UUID 3b7b4867-4229-44c1-9116-84975637325c wird gezeigt.
+```mcfunction
+/tellraw @s {"text":"Delfin","hoverEvent":{"action":"show_entity","contents":{"id":"3b7b4867-4229-44c1-9116-84975637325c","type":"dolphin"}}}
+```
+➡ Zeigt dem Spieler, der den Befehl ausführt, den Text Delfin und wenn über den Text gegleitet wird, wird ein Delfin mit der UUID 3b7b4867-4229-44c1-9116-84975637325c wird gezeigt.
