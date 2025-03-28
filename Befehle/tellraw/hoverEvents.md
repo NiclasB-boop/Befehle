@@ -44,8 +44,8 @@
 ```json
 "hoverEvent":{"action":"show_entity","contents":{"id":"<uuid>","type":"<Entität>"}}
 ```
-* ```***<uuid>***``` - Die [UUID](https://www.uuidgenerator.net/) der Entität.
-* ```***<Entität>***``` - Die Entität.
+* **`<uuid>`** - Die [UUID](https://www.uuidgenerator.net/) der Entität.
+* **`<Entität>`** - Die Entität.
 #### Beispiele
 ```mcfunction
 /tellraw @s {"text":"Zombie","hoverEvent":{"action":"show_entity","contents":{"id":"3b7b4867-4229-44c1-9116-84975637325c","type":"zombie"}}}
