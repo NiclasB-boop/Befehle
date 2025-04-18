@@ -12,3 +12,6 @@
 
 ## Weitere Informationen
 * [Minecraft-Wiki](https://minecraft.wiki/command)
+
+## License
+[MIT License](LICENSE)
