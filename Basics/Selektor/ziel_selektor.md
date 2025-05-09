@@ -15,3 +15,14 @@ advancements={<Erfolg>{<Kriterie>=<true|false>}}
 * ***```<Erfolg>```*** - Den Erfolg den die Entität haben muss.
 * ***```<true|false>```*** - Ob er ihn hat oder nicht.
 * ***```<Kriterie>```*** - Welche Kriterie des Erfolges.
+### distance
+```
+distance=<Entfermung>
+```
+* ***```<Entfernung>```*** - Wie weit die Entität entfernt sein muss.
+### gamemode
+```
+gamemode=!<Spielmodus>
+gamemode=<Spielmodus>
+```
+* ***```<Spielmodus>```*** - Den Spielmodus den die Entität haben/nicht haben soll.
